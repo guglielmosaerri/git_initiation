@@ -1,4 +1,6 @@
--I used "code" to open this file in VSCode: code chapter1.txt (or use "cat")
--create git repo: git init, to see ls-a
-- we are in our working dir > staging area: where files are tracked.
+- I used "code" to open this file in VSCode: code chapter1.txt (or use "cat")
+- create git repo: git init, to see ls-a
+- we are in our working dir > staging area: which files you pick from to commit.
   See: git status > git add chapter1.txt > git commit -m "initial commit" (explain what you are doing in the message)
+- Check your commit on git log
+- git add the other two files or git add .
