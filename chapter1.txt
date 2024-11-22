@@ -3,4 +3,18 @@
 - we are in our working dir > staging area: which files you pick from to commit.
   See: git status > git add chapter1.txt > git commit -m "initial commit" (explain what you are doing in the message)
 - Check your commit on git log
-- git add the other two files or git add .
+- git add the other two files or git add . and commit. Check the status
+- modify chapter3 and restore previous version > git status > git diff chapter3 > git checkout chapter3.txt
+------------------------------
+- push your local repo to the github page: git remote add origin https://github.com/guglielmosaerri/git_initiation.git
+- gitignore: secrets, keys, ds_store > touch .gitignore > code -a .gitignore > git init, git add . > git rm --cached -r .
+- write inside gitignore the names of the file: use * to specify all the files, ex. *.txt, etc...
+- git add etc...git commit -m "Initial commit"
+- for python use template here: https://github.com/github/gitignore
+- git clone URL 
+-------------------------------
+- git branch branchname
+- git branch to check which branches you have
+- git checkout new_branch > migrate > change files > add and commit with message > git add .
+- changes are saved separately in the two branches > merge: go to main and merge. git merge new_branch
+- to exit vim :q!
