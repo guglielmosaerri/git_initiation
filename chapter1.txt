@@ -16,3 +16,5 @@
 - git branch branchname
 - git branch to check which branches you have
 - git checkout new_branch > migrate > change files > add and commit with message > git add .
+- changes are saved separately in the two branches > merge: go to main and merge. git merge new_branch
+- to exit vim :q!
